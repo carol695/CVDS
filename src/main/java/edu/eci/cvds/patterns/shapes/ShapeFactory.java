@@ -1,5 +1,7 @@
 package edu.eci.cvds.patterns.shapes;
 
+import edu.eci.cvds.patterns.shapes.concrete;
+
 public class ShapeFactory {
   public static Shape create(regularShapeType type){
     switch(type){
